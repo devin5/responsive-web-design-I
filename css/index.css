@@ -190,6 +190,12 @@ footer p{
 	background-color: aquamarine;
 	margin-top: 20px;
 }
+.cta .wrap{
+	background-color: aquamarine;
+}
+.text-content{
+	background-color: aquamarine;
+}
 @media screen and (max-width: 800px) {
 	.container{
 		width:600px;
@@ -226,8 +232,10 @@ footer p{
 			background-color:salmon;
 			margin-top: 30px
 		}
+	.text-content{
+		background-color: salmon;;
 	}
-    }
+    
     @media screen and (max-width: 500px){
 	body{
 		background-color: lightpink;
@@ -285,9 +293,12 @@ footer p{
 	.container footer{
 		margin-top: 30px;
 	}
-	
+	.text-content{
+		background-color: aquamarine;
 
-
-
-
+	}
+	header nav a {
+		background-color: aquamarine;
+	}
     }
+}
