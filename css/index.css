@@ -178,6 +178,18 @@ footer p{
 	list-style: disc;
 	list-style-position: inside;
 }
+.cta-text button{
+	background-color: aqua;
+
+}
+.container .logo{
+	background-color: aqua;
+
+}
+.container footer{
+	background-color: aquamarine;
+	margin-top: 20px;
+}
 @media screen and (max-width: 800px) {
 	.container{
 		width:600px;
@@ -203,6 +215,17 @@ footer p{
 	}
 	.text-content:nth-child(2){
 		padding-left:20px;
+	}
+	.cta-text button{
+		background-color: salmon;
+	}
+	.container .logo{
+		background-color:salmon;
+	}
+	.container footer{
+			background-color:salmon;
+			margin-top: 30px
+		}
 	}
     }
     @media screen and (max-width: 500px){
@@ -250,6 +273,20 @@ footer p{
 	.text-content:nth-child(2){
 		padding-left:0;
 	}
+	.cta-text button{
+		background-color: turquoise;
+	}
+	.container .logo{
+		background-color: aqua;
+	}
+	.container footer{
+		background-color: aqua;
+	}
+	.container footer{
+		margin-top: 30px;
+	}
+	
+
 
 
 
