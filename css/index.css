@@ -1,3 +1,304 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+body{
+	background-color: lightsalmon;
+}
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container{
+	width: 880px;
+	margin: 0 auto;
+}
+header{
+	display:flex;
+	justify-content: space-between; 
+	margin-top: 30px; 
+	align-items: center;
+}
+header nav {
+	display:flex;
+
+}
+header nav a {
+	color: gray;
+	text-decoration: none;
+	margin-right: 65px;
+}
+.cta{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 75px;
+	align-items:center;
+	border-bottom: 4px solid black;
+	margin-bottom: 40px;
+	padding-bottom: 70px;
+}
+
+.cta-text{
+	font-size: 77px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cta-text button{
+	background:white;
+	border: 1px solid black;
+	padding: 8px 45px;
+	font-size: 17px;
+}
+.top-content{
+	display:flex;
+	margin-bottom: 45px;
+}
+.bottom-content{
+	display:flex;
+	margin-top: 40px;
+	border-bottom: 4px solid black;
+	padding-bottom: 40px;
+	
+}
+.bottom-content .text-content:nth-child(2){
+	padding: 0 10px;
+}
+.contact{
+	margin-top: 50px;
+}
+.contact p{
+	margin: 20px 0 px;
+}
+footer p{
+	text-align: center;
+	padding:50px;
+}
+.services-header-img {
+	margin: 20px 0 40px 0;
+}
+.services h1{
+	font-size: 20px;
+
+}
+.services{
+	border-bottom:1px solid black;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	
+}
+.services-parent{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+}
+.services-box {
+	border: 1px solid black;
+	width: 48%;
+	padding: 20px;
+	margin-bottom:40px;
+	background-color:gray ;
+}
+.services-box p{
+	margin-bottom: 15px;
+}
+
+.services-box button{
+	border:1px solid black;
+	text-decoration: none;
+	border-radius: 4px;
+
+}
+.services-bottom-content {
+	display:flex;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+.services-bottom-content-child{
+	width: 45%;
+
+}
+.services-bottom-content-child p{
+	margin-bottom: 15px;
+}
+.services-bottom-content-child ul{
+	list-style: disc;
+	list-style-position: inside;
+}
+.cta-text button{
+	background-color: aqua;
+
+}
+.container .logo{
+	background-color: aqua;
+
+}
+.container footer{
+	background-color: aquamarine;
+	margin-top: 20px;
+}
+.cta .wrap{
+	background-color: aquamarine;
+}
+.text-content{
+	background-color: aquamarine;
+}
+@media screen and (max-width: 800px) {
+	.container{
+		width:600px;
+	}
+	
+	body{
+		background-color: lightblue;
+
+	}
+	header{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	header img {
+		margin-bottom: 40px;
+	}
+	.cta img{
+		display:none;
+
+	}
+	.middle-img{
+		width:600px;
+	}
+	.text-content:nth-child(2){
+		padding-left:20px;
+	}
+	.cta-text button{
+		background-color: salmon;
+	}
+	.container .logo{
+		background-color:salmon;
+	}
+	.container footer{
+			background-color:salmon;
+			margin-top: 30px
+		}
+	.text-content{
+		background-color: salmon;;
+	}
+    
+    @media screen and (max-width: 500px){
+	body{
+		background-color: lightpink;
+
+	}
+	.container{
+		width:400px; 
+	}
+	header nav{
+		display:flex;
+		flex-direction: column;
+
+	}
+	header nav a{
+		border-bottom: 1px solid black;
+		width:500px;
+		text-align: center;
+		margin-bottom: 20px;
+		padding-bottom: 30px;
+		margin-left: 60px;
+	}
+	header nav a:nth-child(1){
+		border-top: 1px solid black;
+		padding-top: 20px;
+	}
+	.top-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	.text-content{
+		margin-bottom: 30px;
+	}
+	.middle-img{
+		width: 420px;
+		
+	}
+	.bottom-content{
+		display:flex;
+		flex-direction: column;
+	}
+	.text-content:nth-child(2){
+		padding-left:0;
+	}
+	.cta-text button{
+		background-color: turquoise;
+	}
+	.container .logo{
+		background-color: aqua;
+	}
+	.container footer{
+		background-color: aqua;
+	}
+	.container footer{
+		margin-top: 30px;
+	}
+	.text-content{
+		background-color: aquamarine;
+
+	}
+	header nav a {
+		background-color: aquamarine;
+	}
+    }
+}
